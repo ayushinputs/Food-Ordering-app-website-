@@ -12,7 +12,7 @@ body {
 }
 
 .top {
-    background-image: url(20241007_012816_0000.png);
+    background-image: url(20241007_015128_0000.png);
     background-size: cover;
     height: 40vh;
     width: 100%;
@@ -91,8 +91,8 @@ input[type="text"]::placeholder {
     padding-right: 18px;
 }
 .shorted section{
-    height: 70px;
-    min-width: 72px;
+    height: 79px;
+    min-width: 80px;
     color: #b53434;
     display: flex;
     flex-direction: column;
@@ -103,18 +103,18 @@ input[type="text"]::placeholder {
     padding-top: 10px;
 }
 section h5{
-    margin-top: 5px;
+    margin-top: 6px;
     font-weight: 500;
 }
 section i{
-    font-size: 20px;
-    background: #b5343434;
+    font-size: 25px;
+    background: #b5343423;
     border-radius: 25px;
-    padding: 6px;
+    padding: 8px;
 }
 .burger, .pizza{
     height: 177px;
-    width: 155px;
+    width: 169px;
     border: 1px solid #cccccc80;
     border-radius: 15px;
     padding: 2px;
