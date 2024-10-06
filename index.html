@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="loco-bell">
+                <div class="location">
+                    <h4 style="font-size: 15px; font-weight: 100;"> Location</h4>
+                    <h3 style="font-size: 15px; font-weight: 600;"><i style="font-weight: 100; font-size: 16px;"
+                            class='bx bx-map'></i> St. Abigail<i style="font-size: 17px;"
+                            class='bx bx-chevron-down'></i></h3>
+                </div>
+                <div class="bell">
+                    <i style="font-size: 25px; opacity: 87%; margin-top: 6px;" class='bx bx-bell'></i>
+                </div>
+            </div>
+            <div class="promo">
+                <h1 style="font-size: 27px; font-weight: 600; letter-spacing: 1px; line-height: 41px;">Promo buy 1,<br>Get 1 more!</h1>
+                <button style="background: white; border: none;
+                color: rgb(181, 10, 10);width: 105px; padding: 9px 9px; border-radius: 25px; font-size: 15px; font-weight: 600;">Order Now</button>
+                <input type="range" id="volume" min="0" max="100" value="25">
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; height: 45px;" class="search-area">
+            <div class="search">
+                <i class='bx bx-search' aria-hidden="true"></i>
+                <input type="text" name="" placeholder="Search food, restaurant, etc">
+                <i style="font-size: 25px; margin-left: 4px;" class='bx bx-filter'></i>
+            </div>
+        </div>
+            <div style="display: flex; justify-content: space-evenly;" class="shorted">
+                <section class="rice"><i class='bx bxs-bowl-rice'></i><h5>Rice</h5></section>
+                <section class="snacks"><i class='bx bxs-cookie' ></i><h5>Snacks</h5></section>
+                <section class="drinks"><i class='bx bxs-drink'></i><h5>Drinks</h5></section>
+                <section class="more"><i class='bx bxs-category'></i><h5>More</h5></section>
+            </div>
+            <div style="margin: 17px 0 15px 11px;" class="rated">
+                <h3 style="font-size: 16px; font-weight: 600;">Top rated food</h3>
+            </div>
+            <div style="display: flex; justify-content: space-evenly;" class="rated-food">
+                <div class="burger">
+                    <img src="download.jpeg" alt="burger">
+                    <h4>Burger Beef 'Andaaz'</h4>
+                    <div style="display: flex; justify-content: space-between; width: 96%;" class="store-name">
+                    <h6 style="margin-top: 8px;"><i class='bx bx-store'></i>Burger Boz</h6>
+                    <h6 class="price">$5.0</h6>
+                </div>
+                </div>
+                <div class="pizza"><img src="78639105.webp" alt="pizza">
+                <h4>Cheese Meat Pizza</h4>
+                <div style="display: flex; justify-content: space-between;" class="store-name">
+                    <h6 style="margin-top: 8px;"><i class='bx bx-store'></i>Pizza Store</h6>
+                    <h6 style="margin-right: 4px;" class="price">$5.55</h6>
+                </div>
+            </div>
+            </div>
+    </div>
+</body>
+</html>

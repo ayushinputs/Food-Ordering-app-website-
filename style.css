@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    background-image: url(20241007_012816_0000.png);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    color: white;
+}
+
+.loco-bell {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location,
+.bell {
+    margin-top: 25px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 70px;
+    height: 5px;
+    border-radius: 25px;
+    background: #dc4242;
+    outline: none;
+    overflow: hidden;
+    margin-left: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 5px;
+    width: 10px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: -350px 0px 0px 345px white;
+}
+
+.promo{
+    width: 55%;
+    height: 50%;
+    margin-top: 43px;
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.search{
+    width: 88%;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 2px 7px #ccc;
+    position: relative;
+    top: -20px;
+    margin-bottom: 20px;
+}
+.search i{
+    font-size: 22px;
+}
+.search input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.33);
+}
+input[type="text"]::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 18px;
+}
+.shorted section{
+    height: 70px;
+    min-width: 72px;
+    color: #b53434;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    padding-top: 10px;
+}
+section h5{
+    margin-top: 5px;
+    font-weight: 500;
+}
+section i{
+    font-size: 20px;
+    background: #b5343434;
+    border-radius: 25px;
+    padding: 6px;
+}
+.burger, .pizza{
+    height: 177px;
+    width: 155px;
+    border: 1px solid #cccccc80;
+    border-radius: 15px;
+    padding: 2px;
+}
+.rated-food img{
+    height: 120px;
+    width: 100%;
+    border-radius: 13px;
+    object-fit: cover;
+}
+.rated-food h4{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.store-name h6{
+    font-weight: 500;
+
+    margin-left: 3px;
+}
+.store-name i{
+    font-size: 12px;
+}
+.price{
+    font-weight: 1000;
+    font-size: 16px;
+    margin-top: 5px;
+}
